@@ -1,0 +1,10 @@
+name: TDS CI/CD
+on:
+  workflow_dispatch:
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3000500@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
